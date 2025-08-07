@@ -7,7 +7,7 @@ def rotate(image):
     return dst
 
 
-image = cv2.imread("Project/Spark1.jpg")
+image = cv2.imread("Project/Spark.jpg")
 height = 476
 width = 476
 dim = (width,height)

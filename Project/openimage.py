@@ -9,7 +9,7 @@ def resize(img,scale_percent):
     print("Resized Dimensions : ",resized.shape)
     return resized
 
-img = cv2.imread("Project/Spark1.jpg")
+img = cv2.imread("Project/Spark.jpg")
 cv2.imshow("Original Image",img)
 img = resize(img,60)
 cv2.imshow("Scaled down by 60%",img)
